@@ -9,11 +9,59 @@ h1 {
     font-weight: unset;
 }
 
+/* Typograph */
+:root {
+    font-family: 'arial';
+}
+
 /* Design */
-.pokemon {
-    background-color: yellow;
+body {
+    background-color: #DDDDDD;
+}
+
+.wrapper {
     width: 300px;
     margin: 200px auto 0;
-    padding: 0 20px;
     text-align: center;
+}
+
+.pikachu {
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+
+.pikachu img {
+    margin-top: -200px;
+}
+
+.pikachu_header {
+    font-size: 36px;
+    color: #F2AA36;
+    font-weight: bold;
+}
+
+.pikachu_header::after {
+    content: ' ';
+    background-color: #F2AA36;
+    display: block;
+    width: 77px;
+    height: 4px;
+    margin: 4px auto;
+}
+
+.pikachu_contents {
+    color: #888888;
+    margin: 24px 20px 44px 20px;
+}
+
+.pikachu_footer {
+    background-color: #eeeeee;
+    border-radius: 0 0 10px 10px;
+}
+
+.pikachu_footer .logo {
+    margin: 15px 0;
 }
