@@ -57,6 +57,10 @@ body {
     margin: 24px 20px 44px 20px;
 }
 
+.pikachu_contents strong {
+    color: #F2AA36;
+}
+
 .pikachu_footer {
     background-color: #eeeeee;
     border-radius: 0 0 10px 10px;
